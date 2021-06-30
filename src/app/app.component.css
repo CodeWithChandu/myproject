@@ -1,0 +1,42 @@
+
+.area{
+    height: 100vp;
+    width: 100%;
+}
+.menu-area{
+    position: static;
+}
+.mega-area{
+    background-image: url('/assets/tiranga.jpg');
+    background-position: center;
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+}
+.dropdown-item{
+    padding: 5px 0;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    margin-top: 2px;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-family: 'Clicker Script', cursive; 
+    font-size: 50px;  
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    background-color: green;
+}
+

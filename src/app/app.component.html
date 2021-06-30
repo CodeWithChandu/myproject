@@ -1,0 +1,84 @@
+<div class="area">
+  <div class="row">
+    <div class="col-12">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-dark">
+        <a class="navbar-brand" routerLink="/home">Tour-In-India</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-around m-3" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="/home">Home</a>
+            </li>
+            <li class="nav-item dropdown menu-area">
+              <a class="nav-link dropdown-toggle" id="mega-one" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="cursor: pointer;">
+                Tourist Places
+              </a>
+              <div class="dropdown-menu mega-area" aria-labelledby="mega-one">
+                <div class="row">
+                  <div class="col-sm-6 col-lg-3">
+                    <h5>North</h5>
+                    <a routerLink="/jk" class="dropdown-item">Jammu & Kashmir</a>
+                    <a routerLink="/himachal" class="dropdown-item">Himachal Pradesh</a>
+                    <a routerLink="/haryana" class="dropdown-item">Haryana</a>
+                    <a routerLink="/punjab" class="dropdown-item">Punjab</a>
+                    <a routerLink="/rajasthan" class="dropdown-item">Rajasthan</a>
+                    <a routerLink="uttarkhand" class="dropdown-item">Uttarkhand</a>
+                    <a routerLink="/up" class="dropdown-item">Uttar Pradesh</a>
+                  </div>
+                  <div class="col-sm-6 col-lg-3">
+                    <h5>East</h5>
+                    <a routerLink="/arunachal" class="dropdown-item">Arunachal Pradesh</a>
+                    <a routerLink="/assam" class="dropdown-item">Assam</a>
+                    <a routerLink="/bihar" class="dropdown-item">Bihar</a>
+                    <a routerLink="chattisgarh" class="dropdown-item">Chattisgarh</a>
+                    <a routerLink="/jharkhand" class="dropdown-item">Jharkhand</a>
+                    <a routerLink="/manipur" class="dropdown-item">Manipur</a>
+                    <a routerLink="/meghalaya" class="dropdown-item">Meghalaya</a>
+                    <a routerLink="/mizoram" class="dropdown-item">Mizoram</a>
+                    <a routerLink="nagaland" class="dropdown-item">Nagaland</a>
+                    <a routerLink="/tripura" class="dropdown-item">Tripura</a>
+                    <a routerLink="/bengal" class="dropdown-item">West Bengal</a>
+                  </div>
+                  <div class="col-sm-6 col-lg-3">
+                    <h5>West</h5>
+                    <a routerLink="/goa" class="dropdown-item">Goa</a>
+                    <a routerLink="gujarat" class="dropdown-item">Gujarat</a>
+                    <a routerLink="/maharashtra" class="dropdown-item">Maharashtra</a>
+                    <a routerLink="mp" class="dropdown-item">Madhya Pradesh</a>
+                  </div>
+                  <div class="col-sm-6 col-lg-3">
+                    <h5>South</h5>
+                    <a routerLink="/andhra" class="dropdown-item">Andhra Pradesh</a>
+                    <a routerLink="/karnataka" class="dropdown-item">Karnataka</a>
+                    <a routerLink="kerala" class="dropdown-item">Kerala</a>
+                    <a routerLink="tn" class="dropdown-item">Tamil Nadu</a>
+                    <a routerLink="telangana" class="dropdown-item">Telangana</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="/places">Choose in Map</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/contact">Contact Us</a>
+            </li> 
+          </ul>
+        </div>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>
